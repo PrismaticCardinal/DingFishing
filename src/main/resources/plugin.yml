@@ -1,0 +1,16 @@
+name: DingFishing
+version: '1.0'
+main: net.parucraft.dingFishing.DingFishing
+api-version: '1.21'
+authors: [ ParuPatch ]
+description: An addon that makes fishing easier
+website: parucraft.net
+commands:
+  dftoggle:
+    description: Toggles DingFishing on/off
+    usage: /dftoggle
+    permission: dingfishing.dftoggle
+permissions:
+  dingfishing.dftoggle:
+    description: Allows someone to run the /dftoggle command
+    default: op
